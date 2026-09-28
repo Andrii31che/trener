@@ -4,7 +4,7 @@ Static bilingual (UK/RU) landing for individual football and athletics training 
 Served by GitHub Pages from `main` (root): https://andrii31che.github.io/trener/
 
 - `index.html`: the whole page (styles and script inline).
-- `v/`: training clips. `p-*.mp4` are 6-second muted previews for the inline loops; the matching full clips (with music) open in the lightbox. `montage.mp4` is the 44-second reel behind the hero.
+- `v/`: training clips. `p-*.mp4` are 6-second muted previews for the inline loops; the matching full clips (with music) open in the lightbox. `montage.mp4` is the 44-second reel behind the hero. `football.mp4` is the 22-second on-field ball montage in the "what happens at training" section.
 - `og.jpg`: link preview image for Telegram and other messengers.
 
 Contacts on the page: Telegram @virta1. No WhatsApp number yet.
