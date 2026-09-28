@@ -1,0 +1,1004 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Тренер Віталій Чернишов</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,600;0,800;1,800;1,900&family=Golos+Text:wght@400;500;600&display=swap">
+<meta name="description" content="Віталій Чернишов, віцечемпіон Європи 2001 з футзалу. Індивідуальні тренування з футболу та легкої атлетики у Валенсії, від 5 років. Перше заняття безкоштовне.">
+<meta name="theme-color" content="#1C4FD8">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://andrii31che.github.io/trener/">
+<meta property="og:title" content="Віталій Чернишов · футбол і легка атлетика у Валенсії">
+<meta property="og:description" content="Віцечемпіон Європи 2001 з футзалу. Індивідуально, удвох або мінігрупа, від 5 років. Перше заняття безкоштовне.">
+<meta property="og:image" content="https://andrii31che.github.io/trener/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231C4FD8'/%3E%3Ctext x='16' y='23' font-family='Arial' font-weight='900' font-style='italic' font-size='20' text-anchor='middle' fill='%23fff'%3EЧ%3C/text%3E%3C/svg%3E">
+<style>
+:root{
+  --ground:#EDF0EA;
+  --surface:#FFFFFF;
+  --surface-2:#E2E7DF;
+  --ink:#0E1A26;
+  --ink-soft:#4E5B65;
+  --line:#CBD3CA;
+  --accent:#1C4FD8;
+  --accent-line:#4A74E4;
+  --accent-ink:#1A45BC;
+  --on-accent:#FFFFFF;
+  --lime:#A6BE17;
+  --lime-soft:#DCEA86;
+  --shadow:0 1px 2px rgba(14,26,38,.06),0 10px 28px rgba(14,26,38,.08);
+  --gut:20px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ground:#0B1219;
+    --surface:#111B24;
+    --surface-2:#18242F;
+    --ink:#E9EFE8;
+    --ink-soft:#9AA7B0;
+    --line:#243341;
+    --accent:#3563E9;
+    --accent-line:#5A82F0;
+    --accent-ink:#8FB0FF;
+    --on-accent:#FFFFFF;
+    --lime:#C4DA35;
+    --lime-soft:rgba(196,218,53,.26);
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ground:#0B1219;
+  --surface:#111B24;
+  --surface-2:#18242F;
+  --ink:#E9EFE8;
+  --ink-soft:#9AA7B0;
+  --line:#243341;
+  --accent:#3563E9;
+  --accent-line:#5A82F0;
+  --accent-ink:#8FB0FF;
+  --on-accent:#FFFFFF;
+  --lime:#C4DA35;
+  --lime-soft:rgba(196,218,53,.26);
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 10px 28px rgba(0,0,0,.35);
+}
+
+*{box-sizing:border-box}
+img{max-width:100%}
+[hidden]{display:none!important}
+body{
+  margin:0;background:var(--ground);color:var(--ink);
+  font-family:"Golos Text","Helvetica Neue",Arial,system-ui,sans-serif;
+  font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased;
+  overflow-x:clip;-webkit-text-size-adjust:100%;
+}
+a{color:inherit}
+p{margin:0}
+button{font:inherit;color:inherit}
+.disp,h1,h2{
+  font-family:"Fira Sans Extra Condensed","Arial Narrow","Roboto Condensed",sans-serif;
+  font-style:italic;font-weight:900;text-transform:uppercase;letter-spacing:-.005em;text-wrap:balance;
+}
+h3{font-size:17px;line-height:1.3;margin:0;font-weight:600}
+.page{max-width:1120px;margin-inline:auto;padding-inline:var(--gut);padding-block:0 120px}
+.page:not([data-lang="ru"]) [lang="ru"]{display:none}
+.page[data-lang="ru"] [lang="uk"]{display:none}
+
+.eyebrow{font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);font-weight:600}
+.sec{padding-block:48px;border-top:1px solid var(--line);display:flex;flex-direction:column;gap:24px}
+.sec h2{font-size:clamp(32px,6.4vw,50px);line-height:.95;margin:0}
+.lede{color:var(--ink-soft);max-width:60ch}
+.muted{color:var(--ink-soft)}
+
+/* coordination ladder, seen from above */
+.ladder{
+  width:168px;height:20px;flex:none;
+  border-block:3px solid var(--lime);
+  background:repeating-linear-gradient(90deg,var(--lime) 0 3px,transparent 3px 28px);
+}
+
+/* ---------- top bar ---------- */
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-block:16px}
+.mark{font-family:"Fira Sans Extra Condensed","Arial Narrow",sans-serif;font-weight:800;font-style:italic;text-transform:uppercase;letter-spacing:.04em;font-size:15px}
+.mark i{font-style:italic;color:var(--accent-ink)}
+.langs{display:flex;gap:6px}
+.langbtn{
+  font:600 12px/1 "Golos Text",sans-serif;letter-spacing:.08em;
+  background:none;border:1px solid var(--line);color:var(--ink-soft);
+  min-height:40px;min-width:52px;padding:0 12px;border-radius:999px;cursor:pointer;
+}
+.langbtn[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--ground)}
+
+/* ---------- hero ---------- */
+.hero{
+  display:grid;gap:24px;padding-block:8px 52px;
+  grid-template-columns:minmax(0,1fr);
+  grid-template-areas:"head" "media" "body";
+}
+.hero-head{grid-area:head;display:flex;flex-direction:column;gap:14px}
+.hero h1{font-size:clamp(54px,17vw,96px);line-height:.84;margin:0}
+.hero h1 .l2{color:var(--accent-ink)}
+.hero-body{grid-area:body;display:flex;flex-direction:column;gap:18px}
+.role{font-size:clamp(19px,3.4vw,23px);line-height:1.35;font-weight:500;max-width:34ch}
+.hero .lede{max-width:52ch}
+.hero-media{grid-area:media;width:100%;max-width:440px}
+.cta{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:9px;
+  font:600 16px/1 "Golos Text",sans-serif;text-decoration:none;
+  padding:16px 22px;border-radius:12px;border:1px solid transparent;cursor:pointer;
+  transition:transform .12s ease,box-shadow .12s ease;
+}
+.btn-primary{background:var(--accent);color:var(--on-accent)}
+.btn-ghost{border-color:var(--line);background:var(--surface);color:var(--ink)}
+.btn:hover{transform:translateY(-1px);box-shadow:var(--shadow)}
+.btn:focus-visible,.langbtn:focus-visible,.clip-media:focus-visible,.arrow:focus-visible,summary:focus-visible{outline:3px solid var(--lime);outline-offset:3px}
+.btn svg{width:18px;height:18px;flex:none}
+.free{font-size:15.5px;color:var(--ink-soft)}
+.hl{background:linear-gradient(transparent 52%,var(--lime-soft) 52%);color:var(--ink);font-weight:600;padding-inline:2px}
+
+/* ---------- video tiles ---------- */
+.clip-media{
+  position:relative;display:block;width:100%;padding:0;border:0;cursor:pointer;
+  border-radius:16px;overflow:hidden;background:var(--surface-2);
+}
+.clip-media video{display:block;width:100%;height:100%;object-fit:cover}
+.tag{
+  position:absolute;left:10px;bottom:10px;display:inline-flex;align-items:center;gap:7px;
+  background:rgba(8,14,20,.66);color:#fff;border-radius:999px;
+  padding:7px 11px 7px 9px;font:600 12.5px/1 "Golos Text",sans-serif;letter-spacing:.01em;
+  backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);
+}
+.tag svg{width:12px;height:12px}
+.hero-media .clip-media{aspect-ratio:4/5}
+.wide .clip-media{aspect-ratio:16/9}
+.cap{font-size:14px;color:var(--ink-soft);margin-top:10px}
+
+/* ---------- scoreboard ---------- */
+.board{
+  display:grid;grid-template-columns:1fr 1fr;gap:1px;
+  background:var(--accent-line);border-radius:18px;overflow:hidden;color:var(--on-accent);
+}
+.cell{background:var(--accent);padding:20px 18px 22px;display:flex;flex-direction:column;gap:6px}
+.cell .n{font-family:"Fira Sans Extra Condensed","Arial Narrow",sans-serif;font-style:italic;font-weight:900;font-size:clamp(44px,9vw,64px);line-height:.9;font-variant-numeric:tabular-nums}
+.cell .t{font-size:15px;line-height:1.35;opacity:.92}
+.sources{font-size:14px;color:var(--ink-soft)}
+.sources a{color:var(--accent-ink);text-underline-offset:3px}
+
+/* ---------- reel ---------- */
+.reel-head{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap}
+.reel-head .txt{display:flex;flex-direction:column;gap:14px}
+.arrows{display:none;gap:8px}
+.arrow{
+  width:46px;height:46px;border-radius:999px;border:1px solid var(--line);
+  background:var(--surface);cursor:pointer;display:grid;place-items:center;
+}
+.arrow svg{width:18px;height:18px}
+.reel{
+  display:grid;grid-auto-flow:column;grid-auto-columns:clamp(158px,44vw,236px);gap:12px;
+  overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;
+  margin-inline:calc(var(--gut) * -1);padding:4px var(--gut) 14px;scroll-padding-inline:var(--gut);
+  scrollbar-width:thin;
+}
+.clip{margin:0;scroll-snap-align:start;display:flex;flex-direction:column;gap:10px}
+.clip .clip-media{aspect-ratio:9/16}
+.clip figcaption{display:flex;flex-direction:column;gap:2px}
+.clip figcaption b{font-weight:600;font-size:15.5px;line-height:1.3}
+.clip figcaption span{font-size:13.5px;color:var(--ink-soft)}
+
+/* ---------- why ---------- */
+.split{display:grid;gap:24px;grid-template-columns:minmax(0,1fr)}
+.why{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:26px 24px;display:flex;flex-direction:column;gap:14px}
+.why .big{font-family:"Fira Sans Extra Condensed","Arial Narrow",sans-serif;font-style:italic;font-weight:800;font-size:clamp(24px,4.4vw,32px);line-height:1.08;text-transform:uppercase}
+.why p{color:var(--ink-soft);max-width:60ch}
+.why b{color:var(--ink);font-weight:600}
+
+/* ---------- for whom ---------- */
+.cards{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px;display:flex;flex-direction:column;gap:9px}
+.card p{color:var(--ink-soft);font-size:15.5px}
+.card b{color:var(--ink);font-weight:600}
+
+/* ---------- what ---------- */
+.what{display:flex;flex-direction:column}
+.what > div{padding:16px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:minmax(0,1fr);gap:4px}
+.what > div:last-child{border-bottom:none}
+.what .k{font-family:"Fira Sans Extra Condensed","Arial Narrow",sans-serif;font-style:italic;font-weight:800;text-transform:uppercase;font-size:21px;line-height:1.1;color:var(--accent-ink)}
+.what .v{color:var(--ink-soft);font-size:15.5px}
+.quote{background:var(--surface-2);border-radius:16px;padding:24px;display:flex;flex-direction:column;gap:12px}
+.quote q{font-family:"Fira Sans Extra Condensed","Arial Narrow",sans-serif;font-style:italic;font-weight:900;text-transform:uppercase;font-size:clamp(28px,5.4vw,40px);line-height:1;quotes:"«" "»";display:block}
+.quote .attr{font-size:14px;color:var(--ink-soft)}
+.quote .attr a{color:var(--accent-ink)}
+
+/* ---------- path ---------- */
+.about{display:grid;gap:28px;grid-template-columns:minmax(0,1fr)}
+.portrait{margin:0;display:flex;flex-direction:column;gap:10px;max-width:320px}
+.portrait img{display:block;width:100%;height:auto;border-radius:18px;background:var(--surface-2)}
+.portrait figcaption{font-size:14px;color:var(--ink-soft)}
+.portrait figcaption b{display:block;color:var(--ink);font-weight:600;font-size:15.5px}
+.ledger{display:flex;flex-direction:column}
+.row{display:grid;grid-template-columns:104px minmax(0,1fr);gap:16px;padding:14px 0;border-bottom:1px solid var(--line);align-items:baseline}
+.row:last-child{border-bottom:none}
+.yr{font-family:"Fira Sans Extra Condensed","Arial Narrow",sans-serif;font-weight:800;font-size:17px;color:var(--accent-ink);font-variant-numeric:tabular-nums;letter-spacing:.01em}
+.ev{font-size:15.5px}
+.ev .sub{color:var(--ink-soft)}
+
+/* ---------- price ---------- */
+.price{display:grid;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:16px;overflow:hidden;max-width:760px}
+.prow{background:var(--surface);display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;padding:18px 20px;align-items:baseline}
+.prow.hi{background:var(--lime-soft)}
+.pname{font-size:16px;font-weight:500}
+.pname small{display:block;color:var(--ink-soft);font-weight:400;font-size:14px;margin-top:3px}
+.pval{font-family:"Fira Sans Extra Condensed","Arial Narrow",sans-serif;font-weight:800;font-size:21px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.pnote{font-size:15px;color:var(--ink-soft);max-width:62ch}
+
+/* ---------- rules ---------- */
+.rules{display:flex;flex-direction:column;max-width:760px}
+.rules > div{padding:17px 0;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:5px}
+.rules > div:last-child{border-bottom:none}
+.rules .k{font-weight:600;font-size:16px}
+.rules .v{color:var(--ink-soft);font-size:15.5px;max-width:64ch}
+.rules b{color:var(--ink);font-weight:600}
+
+/* ---------- faq ---------- */
+.faq{max-width:760px}
+details{border-bottom:1px solid var(--line)}
+details[open]{padding-bottom:16px}
+summary{cursor:pointer;list-style:none;padding:17px 0;font-weight:600;font-size:16.5px;display:flex;justify-content:space-between;gap:16px;align-items:center;border-radius:4px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-family:"Fira Sans Extra Condensed",sans-serif;font-weight:800;color:var(--accent-ink);font-size:24px;line-height:1;flex:none}
+details[open] summary::after{content:"–"}
+details p{color:var(--ink-soft);font-size:15.5px;max-width:62ch}
+
+/* ---------- final ---------- */
+.final{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:32px 24px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:18px}
+.final h2{margin:0}
+.final p{color:var(--ink-soft);max-width:54ch}
+.foot{font-size:13.5px;color:var(--ink-soft);display:flex;flex-wrap:wrap;gap:8px 18px}
+
+/* ---------- sticky dock (phones) ---------- */
+.dock{
+  position:fixed;left:0;right:0;bottom:0;z-index:20;
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));
+  background:var(--surface);border-top:1px solid var(--line);box-shadow:0 -6px 20px rgba(14,26,38,.08);
+  transform:translateY(110%);transition:transform .22s ease;
+}
+.dock.show{transform:none}
+.dock .d-txt{font-size:14px;line-height:1.3;font-weight:600}
+.dock .d-txt span{display:block;font-weight:400;color:var(--ink-soft);font-size:13px}
+.dock .btn{padding:13px 18px;font-size:15px}
+
+/* ---------- lightbox ---------- */
+.lb{
+  position:fixed;inset:0;z-index:50;background:#05090D;color:#fff;
+  display:grid;grid-template-rows:auto minmax(0,1fr) auto;gap:10px;
+  padding:calc(10px + env(safe-area-inset-top,0px)) 12px calc(12px + env(safe-area-inset-bottom,0px));
+  overscroll-behavior:contain;
+}
+.lb-top,.lb-bot{display:flex;align-items:center;justify-content:space-between;gap:12px;max-width:880px;width:100%;margin-inline:auto}
+.lb-count{font:600 13px/1 "Golos Text",sans-serif;letter-spacing:.08em;opacity:.7;font-variant-numeric:tabular-nums}
+.lb-stage{position:relative;min-height:0;display:flex;align-items:center;justify-content:center}
+.lb-stage video{display:block;width:100%;height:100%;object-fit:contain;background:#000;border-radius:12px}
+.lb-msg{
+  position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+  display:flex;align-items:center;gap:10px;padding:10px 14px;border-radius:999px;
+  background:rgba(255,255,255,.1);font:500 14px/1.2 "Golos Text",sans-serif;pointer-events:none;white-space:nowrap;
+}
+.lb-msg .spin{width:16px;height:16px;border-radius:50%;border:2px solid rgba(255,255,255,.3);border-top-color:#fff;animation:spin .8s linear infinite}
+.lb-msg.err .spin{display:none}
+@keyframes spin{to{transform:rotate(360deg)}}
+.lb-cap{font-size:15px;line-height:1.35;min-width:0}
+.lb-cap span{display:block;opacity:.65;font-size:13.5px}
+.lb-btn{
+  min-width:48px;height:48px;border-radius:999px;border:1px solid rgba(255,255,255,.22);
+  background:rgba(255,255,255,.08);color:#fff;cursor:pointer;display:grid;place-items:center;padding:0 14px;
+}
+.lb-btn svg{width:18px;height:18px}
+.lb-btn:focus-visible{outline:3px solid #C4DA35;outline-offset:2px}
+.lb-nav{display:flex;gap:8px;flex:none}
+
+/* ---------- tablet & desktop ---------- */
+@media (min-width:640px){
+  .board{grid-template-columns:repeat(4,1fr)}
+  .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .what > div{grid-template-columns:180px minmax(0,1fr);gap:20px;align-items:baseline}
+  .row{grid-template-columns:128px minmax(0,1fr)}
+}
+@media (min-width:700px){
+  .sec{padding-block:60px;gap:28px}
+  .hero{
+    grid-template-columns:minmax(0,1fr) auto;
+    grid-template-areas:"head media" "body media";
+    column-gap:40px;row-gap:24px;padding-block:20px 56px;align-items:start;
+  }
+  .hero h1{font-size:clamp(62px,10vw,88px)}
+  .hero-media{width:auto;max-width:none}
+  .hero-media .clip-media{aspect-ratio:9/16;width:min(300px,calc((100vh - 40px) * .5625))}
+  .arrows{display:flex}
+  .about{grid-template-columns:240px minmax(0,1fr);gap:36px;align-items:start}
+  .reel{grid-auto-columns:clamp(190px,30vw,236px)}
+}
+@media (min-width:900px){
+  :root{--gut:32px}
+  .hero{column-gap:56px;padding-block:28px 64px}
+  .hero-media .clip-media{width:min(340px,calc((100vh - 40px) * .5625))}
+  .split{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);align-items:start}
+  .about{grid-template-columns:300px minmax(0,1fr);gap:56px}
+  .portrait{position:sticky;top:calc(24px + env(safe-area-inset-top,0px))}
+  .final{padding:44px 40px}
+  .dock{display:none}
+}
+@media (min-width:1100px){
+  .hero h1{font-size:112px}
+  .hero-media .clip-media{width:min(360px,calc((100vh - 40px) * .5625))}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="page" id="page" data-lang="uk">
+
+  <div class="top">
+    <div class="mark"><span lang="uk">Чернишов</span><span lang="ru">Чернышев</span> <i>·</i> <span lang="uk">футбол</span><span lang="ru">футбол</span></div>
+    <div class="langs">
+      <button class="langbtn" type="button" data-set="uk" aria-pressed="true">УКР</button>
+      <button class="langbtn" type="button" data-set="ru" aria-pressed="false">РУС</button>
+    </div>
+  </div>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero" id="hero">
+    <div class="hero-head">
+      <div class="eyebrow">
+        <span lang="uk">Валенсія · індивідуальні тренування</span>
+        <span lang="ru">Валенсия · индивидуальные тренировки</span>
+      </div>
+      <h1>
+        <span lang="uk">Віталій<br><span class="l2">Чернишов</span></span>
+        <span lang="ru">Виталий<br><span class="l2">Чернышев</span></span>
+      </h1>
+      <div class="ladder" aria-hidden="true"></div>
+    </div>
+
+    <div class="hero-media">
+      <button class="clip-media" type="button" data-clip data-full="v/montage.mp4" data-uk="Як проходять тренування" data-ru="Как проходят тренировки" data-uk2="Ролик 0:44" data-ru2="Ролик 0:44">
+        <video muted loop playsinline preload="none" poster="v/ladder.jpg" data-src="v/p-ladder.mp4"></video>
+        <span class="tag"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1.2v9.6L10.6 6z" fill="currentColor"/></svg><span lang="uk">Дивитися ролик · 0:44</span><span lang="ru">Смотреть ролик · 0:44</span></span>
+      </button>
+    </div>
+
+    <div class="hero-body">
+      <p class="role">
+        <span lang="uk">Футбол і легка атлетика, індивідуально та в мінігрупах. Дітям, які займаються будь-яким спортом, і тим, хто не займається жодним. Від 5 років і дорослі.</span>
+        <span lang="ru">Футбол и лёгкая атлетика, индивидуально и в мини-группах. Детям, которые занимаются любым спортом, и тем, кто не занимается никаким. От 5 лет и взрослые.</span>
+      </p>
+      <p class="lede">
+        <span lang="uk">Гравець збірної України з футзалу, віцечемпіон Європи 2001 року. 15 років треную команди, був головним тренером професійного клубу. Тепер живу у Валенсії й беру учнів.</span>
+        <span lang="ru">Игрок сборной Украины по футзалу, вице-чемпион Европы 2001 года. 15 лет тренирую команды, был главным тренером профессионального клуба. Теперь живу в Валенсии и беру учеников.</span>
+      </p>
+      <div class="cta" id="hero-cta">
+        <a class="btn btn-primary" href="https://t.me/virta1">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21.4 3.6 2.9 10.7c-1.3.5-1.2 1.3-.2 1.6l4.7 1.5 1.8 5.6c.2.6.4.8.8.8.4 0 .6-.2.9-.5l2.3-2.2 4.7 3.5c.9.5 1.5.2 1.7-.8l3.1-14.6c.3-1.3-.5-1.9-1.3-1.5zM8.6 13.4l9.5-6c.5-.3.9-.1.5.2l-8 7.3-.3 3.3-1.7-4.8z"/></svg>
+          <span lang="uk">Написати в Telegram</span><span lang="ru">Написать в Telegram</span>
+        </a>
+      </div>
+      <p class="free">
+        <span lang="uk"><span class="hl">Перше заняття безкоштовне.</span> Подивитесь на дитину в роботі й вирішите.</span>
+        <span lang="ru"><span class="hl">Первое занятие бесплатно.</span> Посмотрите на ребёнка в работе и решите.</span>
+      </p>
+    </div>
+  </header>
+
+  <!-- ============ SCOREBOARD ============ -->
+  <section class="sec" aria-label="Досягнення">
+    <div class="eyebrow"><span lang="uk">Послужний список</span><span lang="ru">Послужной список</span></div>
+    <div class="board">
+      <div class="cell">
+        <div class="n">2001</div>
+        <div class="t"><span lang="uk">Віцечемпіон Європи у складі збірної України</span><span lang="ru">Вице-чемпион Европы в составе сборной Украины</span></div>
+      </div>
+      <div class="cell">
+        <div class="n">2×</div>
+        <div class="t"><span lang="uk">Чемпіон України, 1999 і 2000</span><span lang="ru">Чемпион Украины, 1999 и 2000</span></div>
+      </div>
+      <div class="cell">
+        <div class="n">2×</div>
+        <div class="t"><span lang="uk">Володар Кубка України, 2000 і 2001</span><span lang="ru">Обладатель Кубка Украины, 2000 и 2001</span></div>
+      </div>
+      <div class="cell">
+        <div class="n">15</div>
+        <div class="t"><span lang="uk">років тренує команди</span><span lang="ru">лет тренирует команды</span></div>
+      </div>
+    </div>
+    <p class="sources">
+      <span lang="uk">Це відкриті дані, їх можна перевірити:</span>
+      <span lang="ru">Это открытые данные, их можно проверить:</span>
+      <a href="https://uk.wikipedia.org/wiki/%D0%A7%D0%B5%D1%80%D0%BD%D0%B8%D1%88%D0%BE%D0%B2_%D0%92%D1%96%D1%82%D0%B0%D0%BB%D1%96%D0%B9_%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%B8%D1%87" target="_blank" rel="noopener"><span lang="uk">Вікіпедія</span><span lang="ru">Википедия</span></a> ·
+      <a href="https://sport.ua/futsal/players/4263-vitaliy-chernyshev" target="_blank" rel="noopener">sport.ua</a> ·
+      <a href="https://futsalua.org/character/vitalii-chernyshev-aleksandrovich" target="_blank" rel="noopener">futsalua.org</a>
+    </p>
+  </section>
+
+  <!-- ============ REEL ============ -->
+  <section class="sec" id="video">
+    <div class="reel-head">
+      <div class="txt">
+        <h2><span lang="uk">Як проходить тренування</span><span lang="ru">Как проходит тренировка</span></h2>
+        <p class="lede">
+          <span lang="uk">Відео з реальних занять з дітьми й підлітками. Натисніть на будь-яке, щоб відкрити на весь екран.</span>
+          <span lang="ru">Видео с настоящих занятий с детьми и подростками. Нажмите на любое, чтобы открыть на весь экран.</span>
+        </p>
+      </div>
+      <div class="arrows">
+        <button class="arrow" type="button" data-dir="-1" aria-label="Назад"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <button class="arrow" type="button" data-dir="1" aria-label="Далі"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+    </div>
+
+    <div class="reel" id="reel">
+      <figure class="clip">
+        <button class="clip-media" type="button" data-clip data-uk="Пояснює вправу" data-ru="Объясняет упражнение" data-uk2="Мінігрупа" data-ru2="Мини-группа">
+          <video muted loop playsinline preload="none" poster="v/explain.jpg" data-src="v/p-explain.mp4"></video>
+          <span class="tag"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1.2v9.6L10.6 6z" fill="currentColor"/></svg>0:10</span>
+        </button>
+        <figcaption><b><span lang="uk">Пояснює вправу</span><span lang="ru">Объясняет упражнение</span></b><span><span lang="uk">мінігрупа</span><span lang="ru">мини-группа</span></span></figcaption>
+      </figure>
+      <figure class="clip">
+        <button class="clip-media" type="button" data-clip data-uk="Спершу показує сам" data-ru="Сначала показывает сам" data-uk2="Скакалка" data-ru2="Скакалка">
+          <video muted loop playsinline preload="none" poster="v/coachrope.jpg" data-src="v/p-coachrope.mp4"></video>
+          <span class="tag"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1.2v9.6L10.6 6z" fill="currentColor"/></svg>0:09</span>
+        </button>
+        <figcaption><b><span lang="uk">Спершу показує сам</span><span lang="ru">Сначала показывает сам</span></b><span>скакалка</span></figcaption>
+      </figure>
+      <figure class="clip">
+        <button class="clip-media" type="button" data-clip data-uk="Координаційна драбина" data-ru="Координационная лестница" data-uk2="Частота кроку, координація" data-ru2="Частота шага, координация">
+          <video muted loop playsinline preload="none" poster="v/ladder2.jpg" data-src="v/p-ladder2.mp4"></video>
+          <span class="tag"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1.2v9.6L10.6 6z" fill="currentColor"/></svg>0:12</span>
+        </button>
+        <figcaption><b><span lang="uk">Координаційна драбина</span><span lang="ru">Координационная лестница</span></b><span><span lang="uk">частота кроку</span><span lang="ru">частота шага</span></span></figcaption>
+      </figure>
+      <figure class="clip">
+        <button class="clip-media" type="button" data-clip data-uk="Скакалка" data-ru="Скакалка" data-uk2="Ритм і робота стопи" data-ru2="Ритм и работа стопы">
+          <video muted loop playsinline preload="none" poster="v/rope.jpg" data-src="v/p-rope.mp4"></video>
+          <span class="tag"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1.2v9.6L10.6 6z" fill="currentColor"/></svg>0:10</span>
+        </button>
+        <figcaption><b>Скакалка</b><span><span lang="uk">ритм і робота стопи</span><span lang="ru">ритм и работа стопы</span></span></figcaption>
+      </figure>
+      <figure class="clip">
+        <button class="clip-media" type="button" data-clip data-uk="Зміна напрямку" data-ru="Смена направления" data-uk2="Фішки, реакція" data-ru2="Фишки, реакция">
+          <video muted loop playsinline preload="none" poster="v/reaction.jpg" data-src="v/p-reaction.mp4"></video>
+          <span class="tag"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1.2v9.6L10.6 6z" fill="currentColor"/></svg>0:12</span>
+        </button>
+        <figcaption><b><span lang="uk">Зміна напрямку</span><span lang="ru">Смена направления</span></b><span><span lang="uk">фішки, реакція</span><span lang="ru">фишки, реакция</span></span></figcaption>
+      </figure>
+      <figure class="clip">
+        <button class="clip-media" type="button" data-clip data-uk="Мінігрупа" data-ru="Мини-группа" data-uk2="Діти одного віку" data-ru2="Дети одного возраста">
+          <video muted loop playsinline preload="none" poster="v/group.jpg" data-src="v/p-group.mp4"></video>
+          <span class="tag"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1.2v9.6L10.6 6z" fill="currentColor"/></svg>0:12</span>
+        </button>
+        <figcaption><b><span lang="uk">Мінігрупа</span><span lang="ru">Мини-группа</span></b><span><span lang="uk">діти одного віку</span><span lang="ru">дети одного возраста</span></span></figcaption>
+      </figure>
+      <figure class="clip">
+        <button class="clip-media" type="button" data-clip data-uk="Прийом м'яча" data-ru="Приём мяча" data-uk2="Підлітки, поле" data-ru2="Подростки, поле">
+          <video muted loop playsinline preload="none" poster="v/ballwork.jpg" data-src="v/p-ballwork.mp4"></video>
+          <span class="tag"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1.2v9.6L10.6 6z" fill="currentColor"/></svg>0:12</span>
+        </button>
+        <figcaption><b><span lang="uk">Прийом м'яча</span><span lang="ru">Приём мяча</span></b><span><span lang="uk">підлітки, поле</span><span lang="ru">подростки, поле</span></span></figcaption>
+      </figure>
+      <figure class="clip">
+        <button class="clip-media" type="button" data-clip data-uk="Робота з м'ячем" data-ru="Работа с мячом" data-uk2="Підлітки, поле" data-ru2="Подростки, поле">
+          <video muted loop playsinline preload="none" poster="v/dribble.jpg" data-src="v/p-dribble.mp4"></video>
+          <span class="tag"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1.2v9.6L10.6 6z" fill="currentColor"/></svg>0:12</span>
+        </button>
+        <figcaption><b><span lang="uk">Робота з м'ячем</span><span lang="ru">Работа с мячом</span></b><span><span lang="uk">підлітки, поле</span><span lang="ru">подростки, поле</span></span></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ WHY ============ -->
+  <section class="sec">
+    <h2><span lang="uk">Головна різниця: він вимагає</span><span lang="ru">Главная разница: он требует</span></h2>
+    <div class="split">
+      <div class="why">
+        <div class="big">
+          <span lang="uk">Година є година. Дитина прийшла — дитина працює.</span>
+          <span lang="ru">Час есть час. Ребёнок пришёл — ребёнок работает.</span>
+        </div>
+        <p><span lang="uk">Тут заняття часто побудовані так, щоб дитині було весело. Це не погано, спорт треба любити. Але батьки бачать і другий бік: рік занять минув, а швидкості й техніки як не було, так і немає. Ніхто нічого не питає з дитини, тому дитина нічого й не дає.</span><span lang="ru">Здесь занятия часто построены так, чтобы ребёнку было весело. Это не плохо, спорт нужно любить. Но родители видят и вторую сторону: год занятий прошёл, а скорости и техники как не было, так и нет. Никто ничего с ребёнка не спрашивает, поэтому ребёнок ничего и не даёт.</span></p>
+        <p><span lang="uk">Він працює інакше. <b>Не кричить, а вимагає.</b> Втомилася? Відпочила й продовжила. Не вийшло? Повторили ще раз, і ще, доки не вийде. Без «ну добре, наступного разу».</span><span lang="ru">Он работает иначе. <b>Не кричит, а требует.</b> Устала? Отдохнула и продолжила. Не получилось? Повторили ещё раз, и ещё, пока не получится. Без «ну ладно, в следующий раз».</span></p>
+        <p><span lang="uk">У такому підході виросли ми з вами. Результат видно за місяць, і дитина сама помічає, що стала швидшою. Кращої мотивації не буває.</span><span lang="ru">В таком подходе выросли мы с вами. Результат виден за месяц, и ребёнок сам замечает, что стал быстрее. Лучшей мотивации не бывает.</span></p>
+      </div>
+      <div class="wide">
+        <button class="clip-media" type="button" data-clip data-uk="Заняття на майданчику" data-ru="Занятие на площадке" data-uk2="Фішки, зміна напрямку" data-ru2="Фишки, смена направления">
+          <video muted loop playsinline preload="none" poster="v/playground.jpg" data-src="v/p-playground.mp4"></video>
+          <span class="tag"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1.2v9.6L10.6 6z" fill="currentColor"/></svg><span lang="uk">Зі звуком</span><span lang="ru">Со звуком</span></span>
+        </button>
+        <p class="cap"><span lang="uk">Для тренування вистачить дитячого майданчика у дворі. Фішки й драбину тренер привозить сам.</span><span lang="ru">Для тренировки хватит детской площадки во дворе. Фишки и лестницу тренер привозит сам.</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOR WHOM ============ -->
+  <section class="sec">
+    <h2><span lang="uk">Кому це підходить</span><span lang="ru">Кому это подходит</span></h2>
+    <div class="cards">
+      <div class="card">
+        <h3><span lang="uk">Дитина займається іншим спортом</span><span lang="ru">Ребёнок занимается другим спортом</span></h3>
+        <p><span lang="uk">Плавання, теніс, баскетбол, танці, гімнастика, єдиноборства. Швидкість, реакція, координація, стрибок і витривалість: це <b>легка атлетика й ЗФП</b>, і вони працюють однаково в будь-якому виді. Тренер вашої секції їх не ставить: у нього своя техніка й немає на це годин.</span><span lang="ru">Плавание, теннис, баскетбол, танцы, гимнастика, единоборства. Скорость, реакция, координация, прыжок и выносливость: это <b>лёгкая атлетика и ОФП</b>, и они работают одинаково в любом виде. Тренер вашей секции их не ставит: у него своя техника и нет на это часов.</span></p>
+      </div>
+      <div class="card">
+        <h3><span lang="uk">Дитина не займається нічим</span><span lang="ru">Ребёнок не занимается ничем</span></h3>
+        <p><span lang="uk">Тоді починаємо з тіла: постава, координація, витривалість, уміння володіти собою в русі. М'яч тут інструмент, а не мета. З ним дитині просто цікавіше, ніж рахувати присідання.</span><span lang="ru">Тогда начинаем с тела: осанка, координация, выносливость, умение владеть собой в движении. Мяч здесь инструмент, а не цель. С ним ребёнку просто интереснее, чем считать приседания.</span></p>
+      </div>
+      <div class="card">
+        <h3><span lang="uk">Дитина грає у футбол</span><span lang="ru">Ребёнок играет в футбол</span></h3>
+        <p><span lang="uk">На командному тренуванні м'яча дістається на кілька хвилин. Тут година тільки з ним: перший дотик, удар, обидві ноги, робота на швидкості.</span><span lang="ru">На командной тренировке мяча достаётся на несколько минут. Здесь час только с ним: первое касание, удар, обе ноги, работа на скорости.</span></p>
+      </div>
+      <div class="card">
+        <h3><span lang="uk">Дорослі</span><span lang="ru">Взрослые</span></h3>
+        <p><span lang="uk">Повернутися у форму без спортзалу. Аматорські матчі по вихідних, футзал, загальна підготовка після довгої перерви.</span><span lang="ru">Вернуться в форму без спортзала. Любительские матчи по выходным, футзал, общая подготовка после долгого перерыва.</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHAT ============ -->
+  <section class="sec">
+    <h2><span lang="uk">Що саме буде на тренуванні</span><span lang="ru">Что именно будет на тренировке</span></h2>
+    <div class="split">
+      <div class="what">
+        <div>
+          <div class="k"><span lang="uk">Техніка</span><span lang="ru">Техника</span></div>
+          <div class="v"><span lang="uk">Перший дотик, ведення, обидві ноги, гра в тісноті. Це база футзалу, і на великому полі вона потім дає перевагу.</span><span lang="ru">Первое касание, ведение, обе ноги, игра в тесноте. Это база футзала, и на большом поле она потом даёт преимущество.</span></div>
+        </div>
+        <div>
+          <div class="k">Удар</div>
+          <div class="v"><span lang="uk">Постановка, сила, точність, різні положення тіла й різні дистанції.</span><span lang="ru">Постановка, сила, точность, разные положения тела и разные дистанции.</span></div>
+        </div>
+        <div>
+          <div class="k"><span lang="uk">Легка атлетика</span><span lang="ru">Лёгкая атлетика</span></div>
+          <div class="v"><span lang="uk">Техніка бігу, старт, прискорення, стрибки, скакалка. Швидкість і витривалість під вік дитини, без перевантаження.</span><span lang="ru">Техника бега, старт, ускорение, прыжки, скакалка. Скорость и выносливость под возраст ребёнка, без перегрузки.</span></div>
+        </div>
+        <div>
+          <div class="k"><span lang="uk">Координація</span><span lang="ru">Координация</span></div>
+          <div class="v"><span lang="uk">Те, чого найбільше бракує дітям, які багато сидять. Помітно вже за місяць.</span><span lang="ru">То, чего больше всего не хватает детям, которые много сидят. Заметно уже через месяц.</span></div>
+        </div>
+        <div>
+          <div class="k"><span lang="uk">Мислення</span><span lang="ru">Мышление</span></div>
+          <div class="v"><span lang="uk">Бачити варіант до того, як отримав м'яч. Цього не дають вправи «на конусах», це ставиться в грі.</span><span lang="ru">Видеть вариант до того, как получил мяч. Этого не дают упражнения «на конусах», это ставится в игре.</span></div>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:20px">
+        <div class="wide">
+          <button class="clip-media" type="button" data-clip data-uk="Підлітки на полі" data-ru="Подростки на поле" data-uk2="Техніка й удар" data-ru2="Техника и удар">
+            <video muted loop playsinline preload="none" poster="v/teens.jpg" data-src="v/p-teens.mp4"></video>
+            <span class="tag"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2 1.2v9.6L10.6 6z" fill="currentColor"/></svg><span lang="uk">Зі звуком</span><span lang="ru">Со звуком</span></span>
+          </button>
+          <p class="cap"><span lang="uk">З підлітками працює на футбольному полі.</span><span lang="ru">С подростками работает на футбольном поле.</span></p>
+        </div>
+        <div class="quote">
+          <q lang="uk">Без дисципліни результату немає</q>
+          <q lang="ru">Без дисциплины результата нет</q>
+          <div class="attr">
+            <span lang="uk">Віталій Чернишов, інтерв'ю</span><span lang="ru">Виталий Чернышев, интервью</span>
+            <a href="https://futsalua.org/blog/post/vitalii-chernyshev-bez-discipliny-rezultata-net" target="_blank" rel="noopener">futsalua.org</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PATH ============ -->
+  <section class="sec">
+    <h2><span lang="uk">Коротко про шлях</span><span lang="ru">Коротко о пути</span></h2>
+    <div class="about">
+      <figure class="portrait">
+        <img src="v/coach.jpg" width="480" height="652" alt="Віталій Чернишов на тренувальному майданчику">
+        <figcaption>
+          <b><span lang="uk">Віталій Олександрович Чернишов</span><span lang="ru">Виталий Александрович Чернышев</span></b>
+          <span lang="uk">Майстер спорту міжнародного класу з футзалу</span><span lang="ru">Мастер спорта международного класса по футзалу</span>
+        </figcaption>
+      </figure>
+      <div class="ledger">
+        <div class="row">
+          <div class="yr">1993 — 1996</div>
+          <div class="ev"><span lang="uk">Великий футбол. <span class="sub">«Металург» (Куп'янськ), «Шабаб Аль-Сахель» (Ліван).</span></span><span lang="ru">Большой футбол. <span class="sub">«Металлург» (Купянск), «Шабаб Аль-Сахель» (Ливан).</span></span></div>
+        </div>
+        <div class="row">
+          <div class="yr">1997 — 2002</div>
+          <div class="ev"><span lang="uk">«Інтеркас», Київ. <span class="sub">Чемпіон України 1999 і 2000, володар Кубка України 2000 і 2001.</span></span><span lang="ru">«Интеркас», Киев. <span class="sub">Чемпион Украины 1999 и 2000, обладатель Кубка Украины 2000 и 2001.</span></span></div>
+        </div>
+        <div class="row">
+          <div class="yr">1998 · 2001 · 2002</div>
+          <div class="ev"><span lang="uk">Срібло чемпіонату України</span><span lang="ru">Серебро чемпионата Украины</span></div>
+        </div>
+        <div class="row">
+          <div class="yr">2001</div>
+          <div class="ev"><span lang="uk">Фінал чемпіонату Європи, Москва. <span class="sub">Збірна України поступилася у фіналі Іспанії й повезла додому срібло.</span></span><span lang="ru">Финал чемпионата Европы, Москва. <span class="sub">Сборная Украины уступила в финале Испании и увезла домой серебро.</span></span></div>
+        </div>
+        <div class="row">
+          <div class="yr">2002 — 2008</div>
+          <div class="ev"><span lang="uk">«Універ-ЕХО» і «Локомотив», Харків.</span><span lang="ru">«Универ-ЭХО» и «Локомотив», Харьков.</span></div>
+        </div>
+        <div class="row">
+          <div class="yr">2009</div>
+          <div class="ev"><span lang="uk">Асистент головного тренера МФК «Моноліт», Харків. <span class="sub">Веде другу команду клубу.</span></span><span lang="ru">Ассистент главного тренера МФК «Монолит», Харьков. <span class="sub">Ведёт вторую команду клуба.</span></span></div>
+        </div>
+        <div class="row">
+          <div class="yr">2011 — 2014</div>
+          <div class="ev"><span lang="uk">Головний тренер МФК «Моноліт», Харків.</span><span lang="ru">Главный тренер МФК «Монолит», Харьков.</span></div>
+        </div>
+        <div class="row">
+          <div class="yr">2014 — 2025</div>
+          <div class="ev"><span lang="uk">Тренерська робота з командами.</span><span lang="ru">Тренерская работа с командами.</span></div>
+        </div>
+        <div class="row">
+          <div class="yr">2026</div>
+          <div class="ev"><span lang="uk">Валенсія. <span class="sub">Індивідуальні тренування й мінігрупи з футболу та легкої атлетики.</span></span><span lang="ru">Валенсия. <span class="sub">Индивидуальные тренировки и мини-группы по футболу и лёгкой атлетике.</span></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRICE ============ -->
+  <section class="sec" id="price">
+    <h2><span lang="uk">Формати і ціна</span><span lang="ru">Форматы и цена</span></h2>
+    <div class="price">
+      <div class="prow hi">
+        <div class="pname">
+          <span lang="uk">Перше заняття<small>45–60 хвилин, без зобов'язань</small></span>
+          <span lang="ru">Первое занятие<small>45–60 минут, без обязательств</small></span>
+        </div>
+        <div class="pval"><span lang="uk">безкоштовно</span><span lang="ru">бесплатно</span></div>
+      </div>
+      <div class="prow">
+        <div class="pname"><span lang="uk">Індивідуально<small>одна дитина або дорослий</small></span><span lang="ru">Индивидуально<small>один ребёнок или взрослый</small></span></div>
+        <div class="pval">30 € / <span lang="uk">год</span><span lang="ru">час</span></div>
+      </div>
+      <div class="prow">
+        <div class="pname"><span lang="uk">Удвох<small>друг, брат, сестра</small></span><span lang="ru">Вдвоём<small>друг, брат, сестра</small></span></div>
+        <div class="pval">20 € / <span lang="uk">з кожного</span><span lang="ru">с каждого</span></div>
+      </div>
+      <div class="prow">
+        <div class="pname"><span lang="uk">Мінігрупа 3–5<small>один рівень, один вік · місце в групі за місяць наперед</small></span><span lang="ru">Мини-группа 3–5<small>один уровень, один возраст · место в группе за месяц вперёд</small></span></div>
+        <div class="pval">15 € / <span lang="uk">з кожного</span><span lang="ru">с каждого</span></div>
+      </div>
+      <div class="prow">
+        <div class="pname"><span lang="uk">Абонемент 8 занять<small>індивідуально, дійсний 2 місяці</small></span><span lang="ru">Абонемент 8 занятий<small>индивидуально, действует 2 месяца</small></span></div>
+        <div class="pval">220 €</div>
+      </div>
+    </div>
+    <p class="pnote">
+      <span lang="uk">Приїжджаю у ваш район Валенсії, доплати за дорогу немає. Тренуємось на муніципальних полях, у парках або на майданчику біля вашого дому. М'ячі, фішки, координаційна драбина мої.</span>
+      <span lang="ru">Приезжаю в ваш район Валенсии, доплаты за дорогу нет. Тренируемся на муниципальных полях, в парках или на площадке возле вашего дома. Мячи, фишки, координационная лестница мои.</span>
+    </p>
+  </section>
+
+  <!-- ============ RULES ============ -->
+  <section class="sec">
+    <h2><span lang="uk">Як це працює на практиці</span><span lang="ru">Как это работает на практике</span></h2>
+    <div class="rules">
+      <div>
+        <div class="k"><span lang="uk">Розклад фіксований</span><span lang="ru">Расписание фиксированное</span></div>
+        <div class="v"><span lang="uk">Той самий день і та сама година щотижня. Так у дитини складається звичка, а не «як вийде».</span><span lang="ru">Тот же день и тот же час каждую неделю. Так у ребёнка складывается привычка, а не «как получится».</span></div>
+      </div>
+      <div>
+        <div class="k"><span lang="uk">Не можете на індивідуальне? Попередьте за 12 годин</span><span lang="ru">Не можете на индивидуальное? Предупредите за 12 часов</span></div>
+        <div class="v"><span lang="uk">Перенесемо без питань і без доплат. Пізніше заняття вважається проведеним: це не штраф, це година, яку я вже не встиг віддати комусь іншому.</span><span lang="ru">Перенесём без вопросов и без доплат. Позже занятие считается проведённым: это не штраф, это час, который я уже не успел отдать кому-то другому.</span></div>
+      </div>
+      <div>
+        <div class="k"><span lang="uk">Мінігрупа йде за розкладом завжди</span><span lang="ru">Мини-группа идёт по расписанию всегда</span></div>
+        <div class="v"><span lang="uk">Незалежно від того, скільки дітей прийшло. Ви оплачуєте <b>місце в групі</b>, а не відвідування, тому пропущене заняття не переноситься. Один пропуск на місяць можна відпрацювати на індивідуальному зі знижкою, якщо є вікно.</span><span lang="ru">Независимо от того, сколько детей пришло. Вы оплачиваете <b>место в группе</b>, а не посещения, поэтому пропущенное занятие не переносится. Один пропуск в месяц можно отработать на индивидуальном со скидкой, если есть окно.</span></div>
+      </div>
+      <div>
+        <div class="k"><span lang="uk">Хвороба або травма</span><span lang="ru">Болезнь или травма</span></div>
+        <div class="v"><span lang="uk">Ставимо абонемент на паузу, нічого не згорає. Скажіть як є, довідок я не питаю.</span><span lang="ru">Ставим абонемент на паузу, ничего не сгорает. Скажите как есть, справок я не спрашиваю.</span></div>
+      </div>
+      <div>
+        <div class="k"><span lang="uk">Дощ</span><span lang="ru">Дождь</span></div>
+        <div class="v"><span lang="uk">Рішення приймаю за дві години до початку й пишу всім. Це перенос, а не скасування.</span><span lang="ru">Решение принимаю за два часа до начала и пишу всем. Это перенос, а не отмена.</span></div>
+      </div>
+      <div>
+        <div class="k"><span lang="uk">Оплата</span><span lang="ru">Оплата</span></div>
+        <div class="v"><span lang="uk">Готівкою на занятті або Bizum. За мінігрупу за місяць наперед: інакше група не тримається й розпадається на другому тижні.</span><span lang="ru">Наличными на занятии или Bizum. За мини-группу за месяц вперёд: иначе группа не держится и разваливается на второй неделе.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="sec">
+    <h2><span lang="uk">Питання, які ставлять першими</span><span lang="ru">Вопросы, которые задают первыми</span></h2>
+    <div class="faq">
+      <details>
+        <summary><span lang="uk">Якою мовою тренування?</span><span lang="ru">На каком языке тренировки?</span></summary>
+        <p><span lang="uk">Українською або російською, як вам зручніше. Іспанську вивчаю, але для роботи з вашою дитиною вона не потрібна.</span><span lang="ru">На украинском или русском, как вам удобнее. Испанский учу, но для работы с вашим ребёнком он не нужен.</span></p>
+      </details>
+      <details>
+        <summary><span lang="uk">З якого віку берете?</span><span lang="ru">С какого возраста берёте?</span></summary>
+        <p><span lang="uk">Від 5 років. Верхньої межі немає, працюю і з дорослими.</span><span lang="ru">С 5 лет. Верхней границы нет, работаю и со взрослыми.</span></p>
+      </details>
+      <details>
+        <summary><span lang="uk">Дитина ніколи не грала у футбол. Є сенс?</span><span lang="ru">Ребёнок никогда не играл в футбол. Есть смысл?</span></summary>
+        <p><span lang="uk">Так. Половина роботи — легка атлетика й загальна фізпідготовка, і вона однаково потрібна тим, хто ходить на плавання, танці, теніс або взагалі нікуди. Футбол просто робить її нескучною.</span><span lang="ru">Да. Половина работы — лёгкая атлетика и общая физподготовка, и она одинаково нужна тем, кто ходит на плавание, танцы, теннис или вообще никуда. Футбол просто делает её нескучной.</span></p>
+      </details>
+      <details>
+        <summary><span lang="uk">Він не кричатиме на дитину?</span><span lang="ru">Он не будет кричать на ребёнка?</span></summary>
+        <p><span lang="uk">Ні. Вимогливість і крик — різні речі, і друге ознака того, що тренер не володіє першим. Він двадцять років грав на рівні, де кричати марно: там працює тільки повторення й спокійна вимога. Прийдіть на перше заняття й подивіться самі, воно для цього й безкоштовне.</span><span lang="ru">Нет. Требовательность и крик — разные вещи, и второе признак того, что тренер не владеет первым. Он двадцать лет играл на уровне, где кричать бесполезно: там работает только повторение и спокойное требование. Придите на первое занятие и посмотрите сами, оно для этого и бесплатное.</span></p>
+      </details>
+      <details>
+        <summary><span lang="uk">Скільки разів на тиждень?</span><span lang="ru">Сколько раз в неделю?</span></summary>
+        <p><span lang="uk">Двох достатньо, щоб побачити зміну за місяць. Один раз теж працює, просто повільніше.</span><span lang="ru">Двух достаточно, чтобы увидеть изменение за месяц. Один раз тоже работает, просто медленнее.</span></p>
+      </details>
+      <details>
+        <summary><span lang="uk">Що взяти із собою?</span><span lang="ru">Что взять с собой?</span></summary>
+        <p><span lang="uk">Спортивну форму, кросівки або бутси, воду. Решту привожу я.</span><span lang="ru">Спортивную форму, кроссовки или бутсы, воду. Остальное привожу я.</span></p>
+      </details>
+      <details>
+        <summary><span lang="uk">А якщо не піде?</span><span lang="ru">А если не пойдёт?</span></summary>
+        <p><span lang="uk">Перше заняття безкоштовне саме для цього. Передоплат і зобов'язань немає, платите за заняття, які відбулися.</span><span lang="ru">Первое занятие бесплатное именно для этого. Предоплат и обязательств нет, платите за занятия, которые состоялись.</span></p>
+      </details>
+    </div>
+  </section>
+
+  <!-- ============ FINAL ============ -->
+  <section class="sec" id="final">
+    <div class="final">
+      <div class="ladder" aria-hidden="true"></div>
+      <h2><span lang="uk">Напишіть, домовимось про час</span><span lang="ru">Напишите, договоримся о времени</span></h2>
+      <p><span lang="uk">Скажіть вік дитини, ваш район і коли вам зручно. Перше заняття підберемо на цьому ж тижні.</span><span lang="ru">Скажите возраст ребёнка, ваш район и когда вам удобно. Первое занятие подберём на этой же неделе.</span></p>
+      <div class="cta">
+        <a class="btn btn-primary" href="https://t.me/virta1">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21.4 3.6 2.9 10.7c-1.3.5-1.2 1.3-.2 1.6l4.7 1.5 1.8 5.6c.2.6.4.8.8.8.4 0 .6-.2.9-.5l2.3-2.2 4.7 3.5c.9.5 1.5.2 1.7-.8l3.1-14.6c.3-1.3-.5-1.9-1.3-1.5zM8.6 13.4l9.5-6c.5-.3.9-.1.5.2l-8 7.3-.3 3.3-1.7-4.8z"/></svg>
+          <span lang="uk">Написати в Telegram</span><span lang="ru">Написать в Telegram</span>
+        </a>
+      </div>
+      <p><span lang="uk">Telegram:</span><span lang="ru">Telegram:</span> <b style="color:var(--ink);user-select:all">@virta1</b></p>
+    </div>
+    <div class="foot">
+      <span lang="uk">Валенсія та найближчі міста</span><span lang="ru">Валенсия и ближайшие города</span>
+      <span lang="uk">Виїзд у ваш район</span><span lang="ru">Выезд в ваш район</span>
+      <span lang="uk">Індивідуально · удвох · мінігрупа</span><span lang="ru">Индивидуально · вдвоём · мини-группа</span>
+    </div>
+  </section>
+
+  <!-- sticky CTA for phones -->
+  <div class="dock" id="dock" aria-hidden="true">
+    <div class="d-txt">
+      <span lang="uk">Перше заняття безкоштовне</span><span lang="ru">Первое занятие бесплатно</span>
+      <span><span lang="uk">Футбол · легка атлетика · від 5 років</span><span lang="ru">Футбол · лёгкая атлетика · от 5 лет</span></span>
+    </div>
+    <a class="btn btn-primary" href="https://t.me/virta1" tabindex="-1"><span lang="uk">Написати</span><span lang="ru">Написать</span></a>
+  </div>
+
+  <!-- lightbox -->
+  <div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Відео">
+    <div class="lb-top">
+      <span class="lb-count" id="lb-count">1 / 1</span>
+      <button class="lb-btn" type="button" id="lb-close" aria-label="Закрити"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+    </div>
+    <div class="lb-stage">
+      <video id="lb-video" controls playsinline preload="auto"></video>
+      <div class="lb-msg" id="lb-msg" hidden><span class="spin" aria-hidden="true"></span><span class="lb-msg-load"><span lang="uk">Завантажую відео…</span><span lang="ru">Загружаю видео…</span></span><span class="lb-msg-err" hidden><span lang="uk">Відео не завантажилось</span><span lang="ru">Видео не загрузилось</span></span></div>
+    </div>
+    <div class="lb-bot">
+      <div class="lb-cap" id="lb-cap"></div>
+      <div class="lb-nav">
+        <button class="lb-btn" type="button" id="lb-prev" aria-label="Попереднє"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <button class="lb-btn" type="button" id="lb-next" aria-label="Наступне"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+(function(){
+  var page = document.getElementById('page');
+
+  /* ---- language ---- */
+  var btns = document.querySelectorAll('.langbtn');
+  function setLang(lang){
+    page.setAttribute('data-lang', lang);
+    document.documentElement.lang = lang;
+    btns.forEach(function(x){ x.setAttribute('aria-pressed', String(x.getAttribute('data-set') === lang)); });
+    try { localStorage.setItem('trener-lang', lang); } catch(e){}
+  }
+  btns.forEach(function(b){ b.addEventListener('click', function(){ setLang(b.getAttribute('data-set')); }); });
+  var saved = null;
+  try { saved = localStorage.getItem('trener-lang'); } catch(e){}
+  if (saved === 'uk' || saved === 'ru') setLang(saved);
+  else if (/^ru\b/i.test(navigator.language || '')) setLang('ru');
+
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* ---- media loading: plain file URL; fetch() + blob: URL only if the player refuses it ---- */
+  var store = {};
+  function getBlob(url){
+    if (!store[url]){
+      var p = fetch(url).then(function(r){
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.blob();
+      }).then(function(b){
+        var type = /\.jpe?g$/i.test(url) ? 'image/jpeg' : 'video/mp4';
+        if (b.type !== type) b = new Blob([b], {type: type});
+        return {blob: b, obj: URL.createObjectURL(b)};
+      });
+      p.catch(function(){ delete store[url]; });
+      store[url] = p;
+    }
+    return store[url];
+  }
+  function dataURL(blob){
+    return new Promise(function(res, rej){
+      var fr = new FileReader();
+      fr.onload = function(){ res(fr.result); };
+      fr.onerror = rej;
+      fr.readAsDataURL(blob);
+    });
+  }
+  function kick(v){
+    if (!v._want) return;
+    var p = v.play();
+    if (p && p.catch) p.catch(function(){
+      if (!v.muted){ v.muted = true; var q = v.play(); if (q && q.catch) q.catch(function(){}); }
+    });
+  }
+  function setVideo(v, url, onFail){
+    var token = {}; v._t = token;
+    var step = 0;
+    v.onerror = function(){
+      if (v._t !== token) return;
+      step++;
+      if (step === 1){
+        getBlob(url).then(function(e){ if (v._t === token){ v.src = e.obj; kick(v); } },
+                          function(){ v.onerror = null; if (onFail) onFail(); });
+      } else { v.onerror = null; if (onFail) onFail(); }
+    };
+    v.src = url;
+    return Promise.resolve();
+  }
+
+  /* posters and the portrait: fall back to fetch() if a plain image request fails */
+  function fixImage(src, apply){
+    var probe = new Image();
+    probe.onerror = function(){ getBlob(src).then(function(e){ apply(e.obj); }, function(){}); };
+    probe.src = src;
+  }
+  var inline = Array.prototype.slice.call(document.querySelectorAll('video[data-src]'));
+  inline.forEach(function(v){
+    var ps = v.getAttribute('poster');
+    if (ps) fixImage(ps, function(u){ v.setAttribute('poster', u); });
+  });
+  var portrait = document.querySelector('.portrait img');
+  if (portrait){
+    var psrc = portrait.getAttribute('src');
+    fixImage(psrc, function(u){ portrait.src = u; });
+  }
+
+  /* ---- inline previews: load and loop only while on screen ---- */
+  var visible = new Set();
+  var lbOpen = false;
+  function startInline(v){
+    if (reduce || lbOpen) return;
+    v._want = true;
+    if (!v._loading){ v._loading = true; setVideo(v, v.getAttribute('data-src')).then(function(){ kick(v); }); }
+    else kick(v);
+  }
+  function stopInline(v){ v._want = false; if (!v.paused) v.pause(); }
+  if ('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        var v = e.target;
+        if (e.isIntersecting && e.intersectionRatio >= 0.4){ visible.add(v); startInline(v); }
+        else { visible.delete(v); stopInline(v); }
+      });
+    }, {threshold:[0, 0.4]});
+    inline.forEach(function(v){ io.observe(v); });
+  }
+
+  /* ---- reel arrows ---- */
+  var reel = document.getElementById('reel');
+  document.querySelectorAll('.arrow').forEach(function(a){
+    a.addEventListener('click', function(){
+      var card = reel.querySelector('.clip');
+      var step = card ? card.getBoundingClientRect().width + 12 : 250;
+      reel.scrollBy({left: step * 2 * Number(a.getAttribute('data-dir')), behavior: reduce ? 'auto' : 'smooth'});
+    });
+  });
+
+  /* ---- lightbox: full clip with sound ---- */
+  var clips = Array.prototype.slice.call(document.querySelectorAll('[data-clip]'));
+  var lb = document.getElementById('lb'), lbv = document.getElementById('lb-video');
+  var lbCap = document.getElementById('lb-cap'), lbCount = document.getElementById('lb-count');
+  var lbMsg = document.getElementById('lb-msg');
+  var msgLoad = lbMsg.querySelector('.lb-msg-load'), msgErr = lbMsg.querySelector('.lb-msg-err');
+  var cur = 0, opener = null;
+  function msg(state){
+    lbMsg.hidden = state === 'none';
+    lbMsg.classList.toggle('err', state === 'err');
+    msgLoad.hidden = state !== 'load';
+    msgErr.hidden = state !== 'err';
+  }
+  lbv.addEventListener('playing', function(){ msg('none'); });
+  lbv.addEventListener('canplay', function(){ if (!lbMsg.classList.contains('err')) msg('none'); });
+  function show(i){
+    cur = (i + clips.length) % clips.length;
+    var c = clips[cur], v = c.querySelector('video');
+    var lang = page.getAttribute('data-lang') === 'ru' ? 'ru' : 'uk';
+    var full = c.getAttribute('data-full') || v.getAttribute('data-src').replace('v/p-', 'v/');
+    lbv.pause();
+    lbv.setAttribute('poster', v.getAttribute('poster') || '');
+    lbv.muted = false;
+    lbv._want = true;
+    msg('load');
+    setVideo(lbv, full, function(){ msg('err'); }).then(function(){ kick(lbv); });
+    lbCap.textContent = '';
+    var t = document.createElement('b'); t.textContent = c.getAttribute('data-' + lang);
+    var s = document.createElement('span'); s.textContent = c.getAttribute('data-' + lang + '2') || '';
+    lbCap.appendChild(t); lbCap.appendChild(s);
+    lbCount.textContent = (cur + 1) + ' / ' + clips.length;
+  }
+  function open(i, from){
+    opener = from; lbOpen = true;
+    inline.forEach(function(v){ stopInline(v); });
+    lb.hidden = false;
+    document.documentElement.style.overflow = 'hidden';
+    show(i);
+    document.getElementById('lb-close').focus({preventScroll:true});
+  }
+  function close(){
+    lbv._want = false; lbv._t = null; lbv.onerror = null;
+    lbv.pause(); lbv.removeAttribute('src'); lbv.load();
+    lb.hidden = true; lbOpen = false; msg('none');
+    document.documentElement.style.overflow = '';
+    visible.forEach(startInline);
+    if (opener) opener.focus({preventScroll:true});
+  }
+  clips.forEach(function(c, i){ c.addEventListener('click', function(){ open(i, c); }); });
+  document.getElementById('lb-close').addEventListener('click', close);
+  document.getElementById('lb-prev').addEventListener('click', function(){ show(cur - 1); });
+  document.getElementById('lb-next').addEventListener('click', function(){ show(cur + 1); });
+  document.addEventListener('keydown', function(e){
+    if (lb.hidden) return;
+    if (e.key === 'Escape') close();
+    else if (e.key === 'ArrowLeft') show(cur - 1);
+    else if (e.key === 'ArrowRight') show(cur + 1);
+  });
+  /* swipe left/right on the video to change clips */
+  var sx = null, sy = null;
+  lb.addEventListener('touchstart', function(e){ if (e.touches.length === 1){ sx = e.touches[0].clientX; sy = e.touches[0].clientY; } }, {passive:true});
+  lb.addEventListener('touchend', function(e){
+    if (sx === null) return;
+    var dx = e.changedTouches[0].clientX - sx, dy = e.changedTouches[0].clientY - sy;
+    sx = null;
+    if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) show(cur + (dx < 0 ? 1 : -1));
+  }, {passive:true});
+
+  /* ---- sticky CTA on phones and tablets ---- */
+  var dock = document.getElementById('dock');
+  if ('IntersectionObserver' in window){
+    var heroIn = true, finalIn = false;
+    var dio = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if (e.target.id === 'hero-cta') heroIn = e.isIntersecting;
+        if (e.target.id === 'final') finalIn = e.isIntersecting;
+      });
+      var on = !heroIn && !finalIn;
+      dock.classList.toggle('show', on);
+      dock.setAttribute('aria-hidden', String(!on));
+      dock.querySelector('a').tabIndex = on ? 0 : -1;
+    });
+    dio.observe(document.getElementById('hero-cta'));
+    dio.observe(document.getElementById('final'));
+  }
+})();
+</script>
+</body>
+</html>
